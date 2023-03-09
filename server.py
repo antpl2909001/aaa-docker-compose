@@ -34,4 +34,5 @@ def oops():
 
 
 if __name__ == "__main__":
+    app.config['JSON_AS_ASCII'] = False
     app.run("0.0.0.0", 8080, threaded=True)
